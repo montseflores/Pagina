@@ -1,0 +1,8 @@
+.caja{
+    border:2px solid #ff9999;
+    float:left;
+    text-align: left;
+    width: 30%;
+    white-space: pre-line;
+    
+}

@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:wheat;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    max-width: 1140px;
+    background-color: red;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1{
+	font-size: 30px;
+	margin: 0;
+}
+
+header, nav{
+	float: left;
+	width: 100%;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 30px 15px;
+	margin-bottom: 20px;
+}
+
+.seccion01, footer{
+	float: left;
+	width: 100%;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 50px 10px;
+	margin-bottom: 20px;
+}
+
+.seccion01 .contenido{
+	float: left;
+	width: 100%;
+	margin-top: 60px;
+}
+
+.seccion01 .contenido .card{
+	float: left;
+	width: 25%;
+	padding: 0px 10px;
+}
+
+.seccion01 .contenido .card .box{
+	background-color: gray;
+	font-size: 30px;
+	color: #ffffff;
+	padding: 60px 15px;
+}
+
+.seccion02 .contenido .izquierdo, .seccion02 .contenido .derecho{
+	width: 50%;
+	float: left;
+	padding: 0px 10px;
+}
+
+.seccion02 .contenido .izquierdo .card{
+	padding: 200px 15px;
+	font-size: 30px;
+	color: #ffffff;
+	background-color: gray;
+}
+
+.seccion02 .contenido .derecho .card{
+	padding: 48px 15px;
+	font-size: 30px;
+	color: #ffffff;
+	background-color: gray;
+	margin-bottom: 20px;
+}
+
+.clear{
+	clear: both;
+}

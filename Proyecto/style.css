@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    max-width: 1140px;
+    background-color: #ffffff;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1{
+	font-size: 30px;
+	margin: 0;
+}
+
+header, nav{
+	float: left;
+	width: 100%;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 30px 15px;
+	margin-bottom: 20px;
+	border: 2px solid #0000FF;
+}
+
+.seccion01, .seccion02, footer{
+	float: left;
+	width: 100%;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 50px 10px;
+	margin-bottom: 20px;
+	border: 2px solid #0000FF;
+}
+
+.seccion01 .contenido,.seccion01 .top, .seccion02 .contenido{
+	float: left;
+	width: 100%;
+	margin-top: 60px;
+}
+
+.seccion01 .card{
+	float: left;
+	width: 100%;
+	padding: 0px 10px;
+}
+
+.seccion01 .contenido .card{
+	float: left;
+	width: 45%;
+	padding: 50px 10px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+
+}
+
+.seccion01 .card{
+	background-color: gray;
+	font-size: 30px;
+	color: #ffffff;
+	padding: 50px 15px;
+
+	
+}
+
+.seccion02 .contenido .izquierdo{
+	width: 50%;
+	float: left;
+	padding: 60px 10px;
+}
+.seccion02 .contenido .derecho .a, .seccion02 .contenido .derecho .b{
+	width: 25%;
+	float: left;
+	padding: 60px 10px;
+}
+
+.seccion02 .contenido .izquierdo .card{
+	padding: 50px 15px;
+	font-size: 30px;
+	color: #ffffff;
+	background-color: gray;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+.card{
+	border: 2px solid #0000FF;
+}
+
+.seccion02 .contenido .derecho .a .card, .seccion02 .contenido .derecho .b .card{
+	padding: 50px 15px;
+	font-size: 30px;
+	color: #ffffff;
+	background-color: gray;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.clear{
+	clear: both;
+}
